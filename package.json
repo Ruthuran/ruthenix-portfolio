@@ -1,18 +1,21 @@
 {
-  "name": "ruthenix-portfolio",
-  "version": "1.0.0",
+  "name": "portfoli",
+  "homepage": "https://Ruthuran.github.io/ruthenix-portfolio",
   "private": true,
+  "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview",
     "lint": "eslint .",
-    "start": "vite"
+    "preview": "vite preview",
+     "predeploy": "npm run build",
+  "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
     "framer-motion": "^12.23.12",
+    "gh-pages": "^6.3.0",
     "lucide-react": "^0.536.0",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
