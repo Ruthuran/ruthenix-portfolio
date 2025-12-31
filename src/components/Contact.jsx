@@ -2,6 +2,7 @@ import { motion, useMotionValue, useTransform } from "framer-motion";
 import { Mail, Phone, MapPin, Send } from "lucide-react";
 import { useState } from "react";
 
+
 export default function Contact() {
   const x = useMotionValue(0);
   const y = useMotionValue(0);
